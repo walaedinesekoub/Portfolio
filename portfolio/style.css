@@ -364,3 +364,20 @@ button[type="submit"]:hover {
     text-decoration: none;
     font-weight: bold;
 }
+
+/* Style pour les boutons personnalisés */
+.btn-custom {
+    background-color: black;  /* Fond noir */
+    color: white;             /* Texte blanc */
+    border: 1px solid black; /* Bordure noire */
+    font-weight: bold;        /* Texte en gras */
+    padding: 10px 20px;       /* Espacement autour du texte */
+    text-decoration: none;    /* Enlever le soulignement */
+    border-radius: 5px;       /* Coins arrondis */
+    transition: background 0.3s, color 0.3s;  /* Effet au survol */
+}
+
+.btn-custom:hover {
+    background-color: #333;  /* Fond légèrement plus clair au survol */
+    color: #f1f1f1;          /* Texte légèrement plus clair au survol */
+}
