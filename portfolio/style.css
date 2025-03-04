@@ -122,8 +122,9 @@ nav ul li a:hover {
     padding: 20px;
 }
 
+/* Augmenter la taille des cartes de projet */
 .project-card {
-    width: 300px;
+    width: 350px;  /* Augmentation de la taille */
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -134,19 +135,28 @@ nav ul li a:hover {
 
 .project-card img {
     width: 100%;
-    height: 200px;
+    height: 250px;  /* Augmenter la taille de l'image */
     object-fit: cover;
 }
 
 .project-card h3 {
     margin: 15px 0 10px;
-    font-size: 1.2em;
+    font-size: 1.5em;  /* Augmenter la taille du titre */
 }
 
 .project-card p {
     padding: 0 15px;
-    font-size: 0.9em;
+    font-size: 1em;  /* Augmenter la taille de la description */
     color: #555;
+}
+
+/* Changer la couleur des liens des compétences en noir */
+.project-card a {
+    color: black;  /* Lien noir */
+}
+
+.project-card a:hover {
+    color: #007bff; /* Une couleur de survol différente */
 }
 
 .project-card .btn {
