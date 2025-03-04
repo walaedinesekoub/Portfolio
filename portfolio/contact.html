@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Walaedine Sekoub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="bg-light">
+
+    <header class="bg-dark text-white text-center py-4 fade-in">
+        <h1>Contact</h1>
+        <nav class="container">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="competences.html">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="projets.html">Projets</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                <li class="nav-item">
+                    <a href="CV_2025-01-15_Walaedine_SEKOUB.pdf" class="btn btn-primary" download>
+                        Télécharger le CV
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact" class="container my-5 fade-in">
+        <h2 class="text-center">Contactez-moi pour toute demande</h2>
+        <p class="lead text-center">Si vous avez une question ou un projet en tête, n'hésitez pas à me contacter en remplissant le formulaire ci-dessous.</p>
+
+        <form action="#" method="POST" id="contact-form">
+            <div class="mb-3">
+                <label for="name" class="form-label">Objet:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Objet du mail" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email :</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Votre email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message :</label>
+                <textarea class="form-control" id="message" name="message" placeholder="Votre message" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Walaedine Sekoub - Tous droits réservés.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
